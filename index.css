@@ -12,7 +12,7 @@
   text-align: center;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .corner-photo {
@@ -21,6 +21,11 @@
   margin-top: 0px;
 }
 
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  padding-left: 70vh;
+}
 a {
   color: #fff;
 }
