@@ -10,6 +10,7 @@
   flex-direction: column;
   text-align: center;
   text-transform: uppercase;
+  font-size: 10pt;
 }
 
 .nav-menu {
@@ -20,9 +21,42 @@
 
 .jumbotron {
   background-color: black;
+  min-height: 50vh;
 }
 .display-4 {
   display: flex;
   justify-content: center;
   color: white;
+  padding-top: 15vh;
+  font-size: 20pt;
+}
+
+.lead {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 10pt;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-title {
+  display: flex;
+  justify-content: center;
+  font-size: 25pt;
+}
+
+.card-img-top {
+  height: 20vh;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 90vh;
+  margin: 0px;
 }
