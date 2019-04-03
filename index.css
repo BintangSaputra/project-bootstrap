@@ -1,5 +1,11 @@
+body {
+  display: flex;
+  padding: 0;
+}
+
 .bg-dark {
   background-color: #1f1f1f;
+  color: #fff;
 }
 
 .navbar-light .navbar-brand {
@@ -49,14 +55,6 @@
   font-size: 25pt;
 }
 
-.card-img-top {
-  height: 20vh;
-}
-
-.card-group {
-  display: flex;
-  flex-direction: row;
-  height: 40vh;
-  width: 90vh;
-  margin: 0px;
+.page-footer {
+  background-color: black;
 }
