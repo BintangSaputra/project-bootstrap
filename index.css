@@ -1,40 +1,28 @@
-.navigation {
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 5vh;
-  padding-top: 2vh;
+.bg-dark {
   background-color: #1f1f1f;
 }
 
-.corner {
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.navbar-brand {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: white;
   text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-.corner-photo {
-  text-transform: lowercase;
-  color: #999797;
-  margin-top: 0px;
 }
 
 .nav-menu {
   display: flex;
-  flex-direction: row;
-  padding-left: 70vh;
-}
-a {
-  color: #fff;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-a:hover.nav-link {
-  color: #999797;
+.jumbotron {
+  background-color: black;
 }
-
-a:hover.corner {
-  color: #fff;
-  text-decoration: none;
+.display-4 {
+  display: flex;
+  justify-content: center;
+  color: white;
 }

@@ -22,16 +22,33 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navigation">
-        <a class="corner" href="index.html"
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="index.html"
           >bintang saputra<span class="corner-photo">Photography</span></a
         >
-        <div class="nav-menu">
-          <a class="nav-link" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           <a class="nav-link" href="#gallery">Gallery</a>
           <a class="nav-link" href="#about">About</a>
         </div>
       </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Indonesia</h1>
+        <p class="lead">
+
       <div id="intro"></div>
       <div id="gallery"></div>
       <div id="about"></div>
