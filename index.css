@@ -63,3 +63,8 @@ body {
 .page-footer {
   background-color: black;
 }
+
+.corner-photo {
+  color: #1f1f1f;
+  text-transform: lowercase;
+}
